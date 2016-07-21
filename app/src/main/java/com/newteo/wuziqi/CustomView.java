@@ -170,7 +170,7 @@ public class CustomView extends View{
             mIsGameOver =  true;
             mIsWhiteWinner = whiteWin;
 
-            String text =  mIsWhiteWinner ? "黑棋弱爆了,执白棋者胜!" : "白棋弱爆了,执黑棋者胜!";
+            String text =  mIsWhiteWinner ? "黑棋弱爆了,白棋帅呆!" : "白棋弱爆了,黑棋帅呆!";
             Toast.makeText(getContext(), text, Toast.LENGTH_LONG).show();
             result = mIsWhiteWinner ? "上回鹿死白手" : "上回鹿死黑手";
         }
